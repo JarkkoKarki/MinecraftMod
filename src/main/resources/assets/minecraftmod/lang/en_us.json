@@ -1,10 +1,10 @@
 {
   "item.minecraftmod.alexandrite": "Alexandrite Gem",
   "item.minecraftmod.raw_alexandrite": "Raw Alexandrite",
-
   "block.minecraftmod.alexandrite_block": "Block of Alexandrite",
-  "block.minecraftmod.raw_alexandrite_block": "Raw Alexandrite Block",
-
-  "creativetab.minecraftmod.alexadrite_items": "Alexandrite Items",
+  "block.minecraftmod.raw_alexandrite_block": "Block of Raw Alexandrite",
+  "block.minecraftmod.alexandrite_ore": "Alexandrite Ore",
+  "block.minecraftmod.alexandrite_deepslate_ore": "Alexandrite Deepslate Ore",
+  "creativetab.minecraftmod.alexandrite_items": "Alexandrite Items",
   "creativetab.minecraftmod.alexandrite_blocks": "Alexandrite Blocks"
 }

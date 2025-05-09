@@ -15,7 +15,7 @@ public class ModCreativeModeTabs {
 
     public static final RegistryObject<CreativeModeTab> ALEXANDRITE_TAB = CREATIVE_MODE_TABS.register("alexandrite_items_tab", () -> CreativeModeTab.builder()
             .icon(() -> new ItemStack(ModItems.ALEXANDRITE.get()))
-            .title(Component.translatable("creativetab.minecraftmod.alexadrite_items"))
+            .title(Component.translatable("creativetab.minecraftmod.alexandrite_items"))
             .displayItems((ItemDisplayParameters, output) -> {
                 output.accept(ModItems.ALEXANDRITE.get());
                 output.accept(ModItems.RAW_ALEXANDRITE.get());
@@ -27,6 +27,9 @@ public class ModCreativeModeTabs {
             .displayItems((ItemDisplayParameters, output) -> {
                 output.accept(ModBlocks.ALEXANDRITE_BLOCK.get());
                 output.accept(ModBlocks.RAW_ALEXANDRITE_BLOCK.get());
+
+                output.accept(ModBlocks.ALEXANDRITE_ORE.get());
+                output.accept(ModBlocks.ALEXANDRITE_DEEPSLATE_ORE.get());
     }).build());
 
     public static void register(IEventBus eventBus) {

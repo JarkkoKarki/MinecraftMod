@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "minecraftmod:alexandrite_block",
+    "minecraftmod:raw_alexandrite_block",
+    "minecraftmod:alexandrite_ore",
+    "minecraftmod:alexandrite_deepslate_ore"
+  ]
+}
