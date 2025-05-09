@@ -3,5 +3,8 @@
   "item.minecraftmod.raw_alexandrite": "Raw Alexandrite",
 
   "block.minecraftmod.alexandrite_block": "Block of Alexandrite",
-  "block.minecraftmod.raw_alexandrite_block": "Raw Alexandrite Block"
+  "block.minecraftmod.raw_alexandrite_block": "Raw Alexandrite Block",
+
+  "creativetab.minecraftmod.alexadrite_items": "Alexandrite Items",
+  "creativetab.minecraftmod.alexandrite_blocks": "Alexandrite Blocks"
 }

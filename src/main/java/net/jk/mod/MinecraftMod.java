@@ -2,6 +2,7 @@ package net.jk.mod;
 
 import com.mojang.logging.LogUtils;
 import net.jk.mod.block.ModBlocks;
+import net.jk.mod.item.ModCreativeModeTabs;
 import net.jk.mod.item.ModItems;
 import net.minecraft.client.Minecraft;
 import net.minecraft.world.item.CreativeModeTab;
@@ -36,6 +37,8 @@ public class MinecraftMod {
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
+
+        ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
