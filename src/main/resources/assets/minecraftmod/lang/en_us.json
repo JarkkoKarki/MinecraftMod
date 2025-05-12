@@ -9,6 +9,17 @@
   "block.minecraftmod.alexandrite_ore": "Alexandrite Ore",
   "block.minecraftmod.alexandrite_deepslate_ore": "Alexandrite Deepslate Ore",
   "block.minecraftmod.magic_block": "Magic Block",
+  "block.minecraftmod.alexandrite_stairs": "Alexandrite Stairs",
+
+    "block.minecraftmod.alexandrite_slab": "Alexandrite Slab",
+    "block.minecraftmod.alexandrite_wall": "Alexandrite Wall",
+    "block.minecraftmod.alexandrite_button": "Alexandrite Button",
+    "block.minecraftmod.alexandrite_pressure_plate": "Alexandrite Pressure Plate",
+    "block.minecraftmod.alexandrite_fence": "Alexandrite Fence",
+    "block.minecraftmod.alexandrite_fence_gate": "Alexandrite Fence Gate",
+    "block.minecraftmod.alexandrite_door": "Alexandrite Door",
+    "block.minecraftmod.alexandrite_trapdoor": "Alexandrite Trapdoor",
+
   "creativetab.minecraftmod.alexandrite_items": "Alexandrite Items",
   "creativetab.minecraftmod.alexandrite_blocks": "Alexandrite Blocks",
   "tooltip.minecraftmod.magic_block.tooltip":  "This block is §9MAGICAL§r.  It can be used to create powerful items and tools.",
