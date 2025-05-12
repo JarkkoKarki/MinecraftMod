@@ -10,6 +10,10 @@
   "block.minecraftmod.alexandrite_deepslate_ore": "Alexandrite Deepslate Ore",
   "block.minecraftmod.magic_block": "Magic Block",
   "creativetab.minecraftmod.alexandrite_items": "Alexandrite Items",
-  "creativetab.minecraftmod.alexandrite_blocks": "Alexandrite Blocks"
+  "creativetab.minecraftmod.alexandrite_blocks": "Alexandrite Blocks",
+  "tooltip.minecraftmod.magic_block.tooltip":  "This block is §9MAGICAL§r.  It can be used to create powerful items and tools.",
+  "tooltip.minecraftmod.chisel.shift_down": "This item changes certain blocks into other blocks.",
+  "tooltip.minecraftmod.chisel.tooltip": "§eShift§r for more info",
+  "tooltip.minecraftmod.kohlrabi.tooltip": "This tastes Great!"
 
 }
