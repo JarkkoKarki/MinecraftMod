@@ -2,6 +2,7 @@ package net.jk.mod;
 
 import com.mojang.logging.LogUtils;
 import net.jk.mod.block.ModBlocks;
+import net.jk.mod.component.ModDataComponentTypes;
 import net.jk.mod.item.ModCreativeModeTabs;
 import net.jk.mod.item.ModItems;
 import net.minecraft.client.Minecraft;
@@ -42,6 +43,8 @@ public class MinecraftMod {
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+
+        ModDataComponentTypes.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
