@@ -53,6 +53,8 @@ public class ModItems {
     public static final RegistryObject<Item> ADRITE_SMITHING_TEMPLATE = ITEMS.register("adrite_armor_trim_smithing_template",
             () -> SmithingTemplateItem.createArmorTrimTemplate(ResourceLocation.fromNamespaceAndPath(MinecraftMod.MOD_ID, "adrite")));
 
+    public static final RegistryObject<Item> ADRITE_BOW = ITEMS.register("adrite_bow", () -> new BowItem(new Item.Properties().durability(500)));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

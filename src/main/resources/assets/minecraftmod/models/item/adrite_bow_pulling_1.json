@@ -1,0 +1,6 @@
+{
+  "parent": "minecraftmod:item/adrite_bow",
+  "textures": {
+    "layer0": "minecraftmod:item/adrite_bow_pulling_1"
+  }
+}
