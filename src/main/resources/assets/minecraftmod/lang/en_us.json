@@ -17,7 +17,8 @@
   "item.minecraftmod.alexandrite_leggings": "Alexandrite Leggings",
   "item.minecraftmod.alexandrite_boots": "Alexandrite Boots",
 
-    "item.minecraftmod.alexandrite_horse_armor": "Alexandrite Horse Armor",
+  "item.minecraftmod.alexandrite_horse_armor": "Alexandrite Horse Armor",
+  "item.minecraftmod.adrite_armor_trim_smithing_template": "Adrite Armor Trim Smithing Template",
 
   "block.minecraftmod.alexandrite_block": "Block of Alexandrite",
   "block.minecraftmod.raw_alexandrite_block": "Block of Raw Alexandrite",
@@ -41,6 +42,9 @@
   "tooltip.minecraftmod.magic_block.tooltip":  "This block is §9MAGICAL§r.  It can be used to create powerful items and tools.",
   "tooltip.minecraftmod.chisel.shift_down": "This item changes certain blocks into other blocks.",
   "tooltip.minecraftmod.chisel.tooltip": "§eShift§r for more info",
-  "tooltip.minecraftmod.kohlrabi.tooltip": "This tastes Great!"
+  "tooltip.minecraftmod.kohlrabi.tooltip": "This tastes Great!",
+
+  "trim_pattern.minecraftmod.adrite": "Adrite Armor Trim",
+  "trim_material.minecraftmod.alexandrite": "Alexandrite Material"
 
 }

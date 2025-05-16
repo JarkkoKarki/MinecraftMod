@@ -68,6 +68,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         trimmedArmorItem(ModItems.ALEXANDRITE_BOOTS);
 
         basicItem(ModItems.ALEXANDRITE_HORSE_ARMOR.get());
+        basicItem(ModItems.ADRITE_SMITHING_TEMPLATE.get());
     }
 
     private void trimmedArmorItem(RegistryObject<Item> itemRegistryObject) {
