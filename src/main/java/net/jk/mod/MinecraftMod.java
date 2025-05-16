@@ -5,6 +5,7 @@ import net.jk.mod.block.ModBlocks;
 import net.jk.mod.component.ModDataComponentTypes;
 import net.jk.mod.item.ModCreativeModeTabs;
 import net.jk.mod.item.ModItems;
+import net.jk.mod.util.ModItemProperties;
 import net.minecraft.client.Minecraft;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -81,9 +82,7 @@ public class MinecraftMod {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event)
         {
-            // Some client setup code
-            LOGGER.info("HELLO FROM CLIENT SETUP");
-            LOGGER.info("MINECRAFT NAME >> {}", Minecraft.getInstance().getUser().getName());
+            ModItemProperties.addCustomItemProperties();
         }
     }
 }
