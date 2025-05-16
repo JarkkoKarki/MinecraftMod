@@ -5,6 +5,7 @@ import net.jk.mod.block.ModBlocks;
 import net.jk.mod.component.ModDataComponentTypes;
 import net.jk.mod.item.ModCreativeModeTabs;
 import net.jk.mod.item.ModItems;
+import net.jk.mod.sound.ModSounds;
 import net.jk.mod.util.ModItemProperties;
 import net.minecraft.client.Minecraft;
 import net.minecraft.world.item.CreativeModeTab;
@@ -46,6 +47,8 @@ public class MinecraftMod {
         ModBlocks.register(modEventBus);
 
         ModDataComponentTypes.register(modEventBus);
+
+        ModSounds.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
