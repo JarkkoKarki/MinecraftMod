@@ -4,6 +4,7 @@ import net.jk.mod.MinecraftMod;
 import net.jk.mod.item.custom.ChiselItem;
 import net.jk.mod.item.custom.HammerItem;
 import net.jk.mod.item.custom.ModArmorItem;
+import net.jk.mod.sound.ModSounds;
 import net.jk.mod.util.ModTags;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
@@ -54,6 +55,8 @@ public class ModItems {
             () -> SmithingTemplateItem.createArmorTrimTemplate(ResourceLocation.fromNamespaceAndPath(MinecraftMod.MOD_ID, "adrite")));
 
     public static final RegistryObject<Item> ADRITE_BOW = ITEMS.register("adrite_bow", () -> new BowItem(new Item.Properties().durability(500)));
+
+    public static final RegistryObject<Item> BAR_BRAWL_MUSIC_DISC = ITEMS.register("bar_brawl_music_disc", () -> new Item( new Item.Properties().jukeboxPlayable(ModSounds.BAR_BRAWL_KEY).stacksTo(1)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
