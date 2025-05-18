@@ -3,11 +3,13 @@ package net.jk.mod;
 import com.mojang.logging.LogUtils;
 import net.jk.mod.block.ModBlocks;
 import net.jk.mod.component.ModDataComponentTypes;
+import net.jk.mod.effect.ModEffects;
 import net.jk.mod.item.ModCreativeModeTabs;
 import net.jk.mod.item.ModItems;
 import net.jk.mod.sound.ModSounds;
 import net.jk.mod.util.ModItemProperties;
 import net.minecraft.client.Minecraft;
+import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -49,6 +51,8 @@ public class MinecraftMod {
         ModDataComponentTypes.register(modEventBus);
 
         ModSounds.register(modEventBus);
+
+        ModEffects.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
