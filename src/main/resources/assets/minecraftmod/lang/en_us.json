@@ -23,6 +23,10 @@
   "item.minecraftmod.adrite_bow": "Adrite Bow",
   "item.minecraftmod.bar_brawl_music_disc.desc": "Bryan Tech - Bar Brawl (CC0)",
 
+  "item.minecraft.potion.effect.slimey_potion": "Slimey Potion",
+  "item.minecraft.splash_potion.effect.slimey_potion": "Slimey Splash Potion",
+  "item.minecraft.lingering_potion.effect.slimey_potion": "Slimey Lingering Potion",
+
   "block.minecraftmod.alexandrite_block": "Block of Alexandrite",
   "block.minecraftmod.raw_alexandrite_block": "Block of Raw Alexandrite",
   "block.minecraftmod.alexandrite_ore": "Alexandrite Ore",

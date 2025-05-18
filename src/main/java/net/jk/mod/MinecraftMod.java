@@ -6,6 +6,7 @@ import net.jk.mod.component.ModDataComponentTypes;
 import net.jk.mod.effect.ModEffects;
 import net.jk.mod.item.ModCreativeModeTabs;
 import net.jk.mod.item.ModItems;
+import net.jk.mod.potion.ModPotions;
 import net.jk.mod.sound.ModSounds;
 import net.jk.mod.util.ModItemProperties;
 import net.minecraft.client.Minecraft;
@@ -53,6 +54,7 @@ public class MinecraftMod {
         ModSounds.register(modEventBus);
 
         ModEffects.register(modEventBus);
+        ModPotions.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
